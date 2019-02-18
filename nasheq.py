@@ -57,7 +57,6 @@ print("[1,1] = ",check_nash(a,b,1,1))
 
 def find_nash(u1,u2):
     nelist = []
-    testspot = 0
     for row in range(len(u1)):
         for col in range(len(u1[0])):
             if check_nash(u1,u2,row,col):
